@@ -61,7 +61,7 @@ def download_models():
         'weights/RealESRGAN_x2plus.pth': 'https://github.com/xinntao/Real-ESRGAN/releases/download/v0.2.1/RealESRGAN_x2plus.pth',
         'weights/RealESRGAN_x4plus.pth': 'https://github.com/xinntao/Real-ESRGAN/releases/download/v0.1.0/RealESRGAN_x4plus.pth',
         'gfpgan/weights/detection_Resnet50_Final.pth': 'https://github.com/xinntao/facexlib/releases/download/v0.1.0/detection_Resnet50_Final.pth',
-        'gfpgan/weights/parsing_parsenet.pth': 'https://github.com/xinntao/facexlib/releases/download/v0.1.0/parsing_parsenet.pth',
+        'gfpgan/weights/parsing_parsenet.pth': 'https://huggingface.co/gmk123/GFPGAN/resolve/main/parsing_parsenet.pth?download=true',
     }
 
     print("Starting model downloads...\n")
